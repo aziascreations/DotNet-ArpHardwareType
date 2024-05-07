@@ -1,13 +1,39 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageVersion>0.0.1</PackageVersion>
+        <Title>NibblePoker Arguments</Title>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Description>...</Description>
+        <PackageProjectUrl>https://github.com/aziascreations/DotNet-ArpHardwareType</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/aziascreations/DotNet-ArpHardwareType/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/aziascreations/DotNet-ArpHardwareType</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>...</PackageTags>
+        <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+        <PackageIcon>icon.png</PackageIcon>
+        <AssemblyVersion>0.0.1</AssemblyVersion>
+        <FileVersion>0.0.1</FileVersion>
+        <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DebugType>none</DebugType>
+        <DocumentationFile>bin\Release\NibblePoker.Data.ArpHardwareType.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DocumentationFile>bin\Debug\NibblePoker.Data.ArpHardwareType.xml</DocumentationFile>
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="RFC1700\" />
+        <None Include="..\icon.png">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+            <Link>icon.png</Link>
+        </None>
     </ItemGroup>
-
+    
 </Project>
