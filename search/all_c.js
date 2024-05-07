@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['serial_5fline_0',['Serial_Line',['../EHardwareType_8cs.html#a5c743bcd569886f83699fdad41abc576a7cb5bd7963ca1cd21998bae4c65efc10',1,'EHardwareType.cs']]],
-  ['smds_1',['SMDS',['../EHardwareType_8cs.html#a5c743bcd569886f83699fdad41abc576ab512600a0f150f5bdf9934d515aea5dd',1,'EHardwareType.cs']]]
+  ['readme_2emd_0',['readme.md',['../readme_8md.html',1,'']]],
+  ['reserved_1',['Reserved',['../EHardwareType_8cs.html#a4dfa89dfdc8b915f2781777da1099aeda942d4e37dd5607ab68e54755540d4a47',1,'EHardwareType.cs']]],
+  ['reserved_5frfc5494_2',['Reserved_RFC5494',['../EHardwareType_8cs.html#a4dfa89dfdc8b915f2781777da1099aeda0f5a9ac0437ca1c8c259c87378d43388',1,'EHardwareType.cs']]]
 ];

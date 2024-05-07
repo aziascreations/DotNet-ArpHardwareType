@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tia_5f102_5fproject_5f25_5fcommon_5fair_5finterface_0',['TIA_102_Project_25_Common_Air_Interface',['../EHardwareType_8cs.html#a5c743bcd569886f83699fdad41abc576aceeebef9c8323003ccdb961706d84427',1,'EHardwareType.cs']]],
-  ['twinaxial_1',['Twinaxial',['../EHardwareType_8cs.html#a5c743bcd569886f83699fdad41abc576a8caf1b1782998c1dde5a0d5b177bc04f',1,'EHardwareType.cs']]]
+  ['serial_5fline_0',['Serial_Line',['../EHardwareType_8cs.html#a4dfa89dfdc8b915f2781777da1099aeda7cb5bd7963ca1cd21998bae4c65efc10',1,'EHardwareType.cs']]],
+  ['smds_1',['SMDS',['../EHardwareType_8cs.html#a4dfa89dfdc8b915f2781777da1099aedab512600a0f150f5bdf9934d515aea5dd',1,'EHardwareType.cs']]]
 ];

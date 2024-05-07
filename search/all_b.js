@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['readme_2emd_0',['readme.md',['../readme_8md.html',1,'']]],
-  ['reserved_1',['Reserved',['../EHardwareType_8cs.html#a5c743bcd569886f83699fdad41abc576a942d4e37dd5607ab68e54755540d4a47',1,'EHardwareType.cs']]],
-  ['reserved_5frfc5494_2',['Reserved_RFC5494',['../EHardwareType_8cs.html#a5c743bcd569886f83699fdad41abc576a0f5a9ac0437ca1c8c259c87378d43388',1,'EHardwareType.cs']]]
+  ['proteon_5fpronet_5ftoken_5fring_0',['Proteon_ProNET_Token_Ring',['../EHardwareType_8cs.html#a4dfa89dfdc8b915f2781777da1099aedaa0e1377c48deb3d7300c9b6ac5d389ac',1,'EHardwareType.cs']]],
+  ['pure_5fip_1',['Pure_IP',['../EHardwareType_8cs.html#a4dfa89dfdc8b915f2781777da1099aeda6ead10a64139a8163c9f23f6568cfed0',1,'EHardwareType.cs']]]
 ];
