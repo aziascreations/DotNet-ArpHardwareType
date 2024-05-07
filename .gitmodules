@@ -1,0 +1,3 @@
+[submodule "NibblePoker.Data.ArpHardwareType.Documentation/doxygen-awesome-css"]
+	path = NibblePoker.Data.ArpHardwareType.Documentation/doxygen-awesome-css
+	url = https://github.com/jothepro/doxygen-awesome-css.git
