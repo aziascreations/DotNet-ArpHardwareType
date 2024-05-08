@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NibblePoker.Data.ArpHardwareType", "NibblePoker.Data.ArpHardwareType\NibblePoker.Data.ArpHardwareType.csproj", "{B3E5019E-E9F6-4EFF-84D3-4230D5086220}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NibblePoker.Dara.ArpHardwareType.Tests", "NibblePoker.Dara.ArpHardwareType.Tests\NibblePoker.Dara.ArpHardwareType.Tests.csproj", "{516B765B-7E64-4895-AB4C-88A05090F105}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NibblePoker.Data.ArpHardwareType.Tests", "NibblePoker.Data.ArpHardwareType.Tests\NibblePoker.Data.ArpHardwareType.Tests.csproj", "{516B765B-7E64-4895-AB4C-88A05090F105}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

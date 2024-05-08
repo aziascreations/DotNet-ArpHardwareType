@@ -15,7 +15,7 @@ jobs:
     
     strategy:
       matrix:
-        dotnet: [ '6.x', '7.x', '8.x' ]
+        dotnet: [ '4.0', '6.x', '7.x', '8.x' ]
     
     name: NUnit Tests (.NET ${{ matrix.dotnet }})
     

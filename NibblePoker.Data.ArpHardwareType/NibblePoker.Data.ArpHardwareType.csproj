@@ -1,8 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
+    
     <PropertyGroup>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
         <PackageVersion>0.0.1</PackageVersion>
         <Title>NibblePoker Arguments</Title>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -16,16 +16,18 @@
         <PackageIcon>icon.png</PackageIcon>
         <AssemblyVersion>0.0.1</AssemblyVersion>
         <FileVersion>0.0.1</FileVersion>
-        <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+        <TargetFrameworks>net40;net6.0;net7.0;net8.0</TargetFrameworks>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
         <DebugType>none</DebugType>
         <DocumentationFile>bin\Release\NibblePoker.Data.ArpHardwareType.xml</DocumentationFile>
+        <Nullable>disable</Nullable>
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
         <DocumentationFile>bin\Debug\NibblePoker.Data.ArpHardwareType.xml</DocumentationFile>
+        <Nullable>disable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
