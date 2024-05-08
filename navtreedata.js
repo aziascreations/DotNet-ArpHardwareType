@@ -25,34 +25,35 @@
 var NAVTREE =
 [
   [ "DotNet-ArpHardwareType", "index.html", [
-    [ ".NET - ARP Hardware Type Data (W.I.P.)", "index.html", [
+    [ ".NET - ARP Hardware Type Data", "index.html", [
       [ "Features", "index.html#autotoc_md1", null ],
       [ "Requirements", "index.html#autotoc_md2", null ],
       [ "Documentation", "index.html#autotoc_md3", null ],
-      [ "Licenses", "index.html#autotoc_md4", null ]
+      [ "Example", "index.html#autotoc_md4", null ],
+      [ "Licenses", "index.html#autotoc_md5", null ]
     ] ],
     [ "Building", "md__github_workspace_building.html", [
-      [ "Setting up .NET", "md__github_workspace_building.html#autotoc_md6", [
-        [ "Using Microsoft's installers", "md__github_workspace_building.html#autotoc_md7", null ],
-        [ "Using Visual Studio Installer", "md__github_workspace_building.html#autotoc_md8", null ],
-        [ "Using a packet manager", "md__github_workspace_building.html#autotoc_md9", null ]
+      [ "Setting up .NET", "md__github_workspace_building.html#autotoc_md7", [
+        [ "Using Microsoft's installers", "md__github_workspace_building.html#autotoc_md8", null ],
+        [ "Using Visual Studio Installer", "md__github_workspace_building.html#autotoc_md9", null ],
+        [ "Using a packet manager", "md__github_workspace_building.html#autotoc_md10", null ]
       ] ],
-      [ "Downloading the sources", "md__github_workspace_building.html#autotoc_md10", null ],
-      [ "Preparing the project", "md__github_workspace_building.html#autotoc_md11", null ],
-      [ "Testing", "md__github_workspace_building.html#autotoc_md12", null ],
-      [ "Compiling", "md__github_workspace_building.html#autotoc_md13", null ],
-      [ "Packaging", "md__github_workspace_building.html#autotoc_md14", null ],
-      [ "Building the documentation", "md__github_workspace_building.html#autotoc_md15", [
-        [ "Installing Doxygen", "md__github_workspace_building.html#autotoc_md16", null ],
-        [ "Building manually", "md__github_workspace_building.html#autotoc_md17", [
-          [ "Windows", "md__github_workspace_building.html#autotoc_md18", null ],
-          [ "Linux", "md__github_workspace_building.html#autotoc_md19", null ]
+      [ "Downloading the sources", "md__github_workspace_building.html#autotoc_md11", null ],
+      [ "Preparing the project", "md__github_workspace_building.html#autotoc_md12", null ],
+      [ "Testing", "md__github_workspace_building.html#autotoc_md13", null ],
+      [ "Compiling", "md__github_workspace_building.html#autotoc_md14", null ],
+      [ "Packaging", "md__github_workspace_building.html#autotoc_md15", null ],
+      [ "Building the documentation", "md__github_workspace_building.html#autotoc_md16", [
+        [ "Installing Doxygen", "md__github_workspace_building.html#autotoc_md17", null ],
+        [ "Building manually", "md__github_workspace_building.html#autotoc_md18", [
+          [ "Windows", "md__github_workspace_building.html#autotoc_md19", null ],
+          [ "Linux", "md__github_workspace_building.html#autotoc_md20", null ]
         ] ],
-        [ "Building automatically", "md__github_workspace_building.html#autotoc_md20", [
-          [ "Windows", "md__github_workspace_building.html#autotoc_md21", null ],
-          [ "Linux", "md__github_workspace_building.html#autotoc_md22", null ]
+        [ "Building automatically", "md__github_workspace_building.html#autotoc_md21", [
+          [ "Windows", "md__github_workspace_building.html#autotoc_md22", null ],
+          [ "Linux", "md__github_workspace_building.html#autotoc_md23", null ]
         ] ],
-        [ "Checking the documentation", "md__github_workspace_building.html#autotoc_md23", null ]
+        [ "Checking the documentation", "md__github_workspace_building.html#autotoc_md24", null ]
       ] ]
     ] ],
     [ "Namespaces", "namespaces.html", [

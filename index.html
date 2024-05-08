@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DotNet-ArpHardwareType: .NET - ARP Hardware Type Data (W.I.P.)</title>
+<title>DotNet-ArpHardwareType: .NET - ARP Hardware Type Data</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -92,12 +92,11 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">.NET - ARP Hardware Type Data (W.I.P.) </div></div>
+  <div class="headertitle"><div class="title">.NET - ARP Hardware Type Data </div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p ><a class="anchor" id="md__github_workspace_readme"></a><a href="https://www.nuget.org/packages/NibblePoker.Data.ArpHardwareType"><img src="https://img.shields.io/nuget/v/NibblePoker.Data.ArpHardwareType?label=Latest%20version" alt="Nuget.org latest version" class="inline"/></a> <a href="https://www.nuget.org/packages/NibblePoker.Data.ArpHardwareType"><img src="https://img.shields.io/nuget/dt/NibblePoker.Data.ArpHardwareType?label=Downloads" alt="Nuget.org downloads count" class="inline"/></a> <a href="https://github.com/aziascreations/DotNet-ArpHardwareType/blob/master/LICENSE"><img src="https://img.shields.io/github/license/aziascreations/DotNet-ArpHardwareType" alt="Repository's License" class="inline"/></a></p>
-<p >A small package containing all the <em>ARP Hardware Types</em> as defined by de IANA, RFC1700 and ???.</p>
-<p >These IDs are [???] 3 distinct enumerations to ...</p>
+<p >A small package containing all the <em>ARP Hardware Types</em> as defined by de IANA, RFC 1700 and Linux in distinct and convenient enums.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Features</h1>
 <ul>
@@ -107,7 +106,7 @@ Features</h1>
 <li>Linux - <em>Parts of <a href="https://datatracker.ietf.org/doc/html/rfc1700">RFC 1700</a>, conflicts with <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA</a>, used by WireShark</em></li>
 </ul>
 </li>
-<li>[Name]</li>
+<li>Provides friendly names for UI usage</li>
 </ul>
 <h1><a class="anchor" id="autotoc_md2"></a>
 Requirements</h1>
@@ -118,6 +117,23 @@ Requirements</h1>
 Documentation</h1>
 <p >Go to <a href="https://aziascreations.github.io/DotNet-ArpHardwareType/">aziascreations.github.io/DotNet-ArpHardwareType/</a> for the HTML documentation.</p>
 <h1><a class="anchor" id="autotoc_md4"></a>
+Example</h1>
+<div class="fragment"><div class="line"><span class="keyword">using </span>System;</div>
+<div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespaceNibblePoker_1_1Data_1_1ArpHardwareType.html">NibblePoker.Data.ArpHardwareType</a>;</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">static</span> <span class="keyword">class </span>Program {</div>
+<div class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Main(<span class="keywordtype">string</span>[] args) {</div>
+<div class="line">        Console.WriteLine(<span class="stringliteral">&quot;IANA ARP Hardware Types:&quot;</span>);</div>
+<div class="line">        <span class="keywordflow">foreach</span>(<a class="code hl_enumeration" href="namespaceNibblePoker_1_1Data_1_1ArpHardwareType.html#a0401021d09f06a2ed4534c4aeaea2c00">EIanaArpHardwareTypes</a> hardwareType <span class="keywordflow">in</span> Enum.GetValues(typeof(<a class="code hl_enumeration" href="namespaceNibblePoker_1_1Data_1_1ArpHardwareType.html#a0401021d09f06a2ed4534c4aeaea2c00">EIanaArpHardwareTypes</a>))) {</div>
+<div class="line">            Console.WriteLine(<span class="stringliteral">&quot;* &quot;</span> + (ulong) hardwareType + <span class="stringliteral">&quot; - &quot;</span> + <a class="code hl_class" href="classNibblePoker_1_1Data_1_1ArpHardwareType_1_1ArpHardwareTypeName.html">ArpHardwareTypeName</a>.<a class="code hl_function" href="classNibblePoker_1_1Data_1_1ArpHardwareType_1_1ArpHardwareTypeName.html#ab7bdde9a79e40111956b675a7998aba8">GetFrom</a>(hardwareType));</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="ttc" id="aclassNibblePoker_1_1Data_1_1ArpHardwareType_1_1ArpHardwareTypeName_html"><div class="ttname"><a href="classNibblePoker_1_1Data_1_1ArpHardwareType_1_1ArpHardwareTypeName.html">NibblePoker.Data.ArpHardwareType.ArpHardwareTypeName</a></div><div class="ttdoc">Attribute used to give a friendly name to entries in the ARP Hardware Types enumerations.</div><div class="ttdef"><b>Definition:</b> ArpHardwareTypeName.cs:10</div></div>
+<div class="ttc" id="aclassNibblePoker_1_1Data_1_1ArpHardwareType_1_1ArpHardwareTypeName_html_ab7bdde9a79e40111956b675a7998aba8"><div class="ttname"><a href="classNibblePoker_1_1Data_1_1ArpHardwareType_1_1ArpHardwareTypeName.html#ab7bdde9a79e40111956b675a7998aba8">NibblePoker.Data.ArpHardwareType.ArpHardwareTypeName.GetFrom</a></div><div class="ttdeci">static string GetFrom(Enum enumObj)</div><div class="ttdoc">Retrieves the friendly name from a given ARP Hardware Types.</div><div class="ttdef"><b>Definition:</b> ArpHardwareTypeName.cs:27</div></div>
+<div class="ttc" id="anamespaceNibblePoker_1_1Data_1_1ArpHardwareType_html"><div class="ttname"><a href="namespaceNibblePoker_1_1Data_1_1ArpHardwareType.html">NibblePoker.Data.ArpHardwareType</a></div><div class="ttdef"><b>Definition:</b> ArpHardwareTypeName.cs:4</div></div>
+<div class="ttc" id="anamespaceNibblePoker_1_1Data_1_1ArpHardwareType_html_a0401021d09f06a2ed4534c4aeaea2c00"><div class="ttname"><a href="namespaceNibblePoker_1_1Data_1_1ArpHardwareType.html#a0401021d09f06a2ed4534c4aeaea2c00">NibblePoker.Data.ArpHardwareType.EIanaArpHardwareTypes</a></div><div class="ttdeci">EIanaArpHardwareTypes</div><div class="ttdoc">Contains all &quot;Hardware Types&quot; from the &quot;Address Resolution Protocol (ARP) Parameters&quot; database mainta...</div><div class="ttdef"><b>Definition:</b> EIanaArpHardwareTypes.cs:14</div></div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md5"></a>
 Licenses</h1>
 <p >The code in this repository is licensed under <a href="https://github.com/aziascreations/DotNet-ArpHardwareType/blob/master/LICENSE">CC0 1.0 Universal (CC0 1.0) (Public Domain)</a>.</p>
 <p >The <a href="https://github.com/jothepro/doxygen-awesome-css">doxygen-awesome-css</a> repository is used as a submodule for Doxygen and is licensed under the <a href="https://github.com/jothepro/doxygen-awesome-css/blob/main/LICENSE">MIT license</a>. </p>
