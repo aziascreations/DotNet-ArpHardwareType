@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['arphardwaretypename_0',['ArpHardwareTypeName',['../classArpHardwareTypeName.html#a2699f4c16614b2744f4aede0bb692eb0',1,'ArpHardwareTypeName']]]
+  ['arphardwaretypename_0',['ArpHardwareTypeName',['../classNibblePoker_1_1Data_1_1ArpHardwareType_1_1ArpHardwareTypeName.html#acb26dc8830e5d998e70d520e9e7144f7',1,'NibblePoker::Data::ArpHardwareType::ArpHardwareTypeName']]]
 ];

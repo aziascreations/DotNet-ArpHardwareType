@@ -1,4 +1,4 @@
 var ArpHardwareTypeName_8cs =
 [
-    [ "ArpHardwareTypeName", "classArpHardwareTypeName.html", "classArpHardwareTypeName" ]
+    [ "NibblePoker.Data.ArpHardwareType.ArpHardwareTypeName", "classNibblePoker_1_1Data_1_1ArpHardwareType_1_1ArpHardwareTypeName.html", "classNibblePoker_1_1Data_1_1ArpHardwareType_1_1ArpHardwareTypeName" ]
 ];

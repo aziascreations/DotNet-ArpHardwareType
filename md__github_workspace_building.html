@@ -95,67 +95,67 @@ $(document).ready(function(){initNavTree('md__github_workspace_building.html',''
   <div class="headertitle"><div class="title">Building </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md5"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md6"></a>
 Setting up .NET</h1>
-<h2><a class="anchor" id="autotoc_md6"></a>
+<h2><a class="anchor" id="autotoc_md7"></a>
 Using Microsoft's installers</h2>
 <p >Go to '<a href="https://dotnet.microsoft.com/en-us/download/dotnet'">https://dotnet.microsoft.com/en-us/download/dotnet'</a> and select the appropriate .NET 6.0 SDK, or a newer version.</p>
 <p >Once downloaded, simply install the SDK.</p>
-<h2><a class="anchor" id="autotoc_md7"></a>
+<h2><a class="anchor" id="autotoc_md8"></a>
 Using Visual Studio Installer</h2>
 <p >Modify your installation and add the individual components named <code>.NET SDK</code> and <code>.NET 6.0 Runtime</code>.</p>
-<h2><a class="anchor" id="autotoc_md8"></a>
+<h2><a class="anchor" id="autotoc_md9"></a>
 Using a packet manager</h2>
 <p >Please refer to your distro's packet manager and repository for more information</p>
-<h1><a class="anchor" id="autotoc_md9"></a>
+<h1><a class="anchor" id="autotoc_md10"></a>
 Downloading the sources</h1>
 <p >Before compiling, you need to download the source code with git like so: </p><div class="fragment"><div class="line">git clone --recurse-submodules https://github.com/aziascreations/DotNet-ArpHardwareTypes</div>
 </div><!-- fragment --><p >Finally, once the repository is cloned, you need to enter the project's directory with: </p><div class="fragment"><div class="line">cd DotNet-ArpHardwareTypes</div>
 </div><!-- fragment --><p >The <code>--recurse-submodules</code> is only required if you intend to build the documentation with the optional <a href="https://github.com/jothepro/doxygen-awesome-css">doxygen-awesome-css</a> theme.</p>
 <p >If you forgot to clone the submodules, you can use the following command to pull them: </p><div class="fragment"><div class="line">git submodule update --init</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md10"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md11"></a>
 Preparing the project</h1>
 <p >In order to prepare the project for any future task, you need to use the following command: </p><div class="fragment"><div class="line">dotnet restore</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md11"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md12"></a>
 Testing</h1>
 <p >In order to run the NUnit tests, you can use the following command: </p><div class="fragment"><div class="line">dotnet test</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md12"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md13"></a>
 Compiling</h1>
 <p >In order to build the project, you should use the following command: </p><div class="fragment"><div class="line">dotnet build</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md13"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md14"></a>
 Packaging</h1>
 <p >In order to build the NuGet package, you should use the following command: </p><div class="fragment"><div class="line">dotnet pack</div>
 </div><!-- fragment --><p> Afterward, check the '<a href="NibblePoker.Data.ArpHardwareType/bin/Release">NibblePoker.Data.ArpHardwareType/bin/Release</a>' folder.</p>
-<h1><a class="anchor" id="autotoc_md14"></a>
+<h1><a class="anchor" id="autotoc_md15"></a>
 Building the documentation</h1>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="autotoc_md16"></a>
 Installing Doxygen</h2>
 <p >In order to install doxygen, you should follow the instructions given on their <a href="https://www.doxygen.nl/index.html">website</a>.</p>
 <p >If you already have it installed, make sure you have the <code>1.10.0</code> version, or a newer one by using the following command: </p><div class="fragment"><div class="line">doxygen -v</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md16"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md17"></a>
 Building manually</h2>
 <p >Run the following commands to build the documentation locally without using any script:</p>
-<h3><a class="anchor" id="autotoc_md17"></a>
+<h3><a class="anchor" id="autotoc_md18"></a>
 Windows</h3>
 <div class="fragment"><div class="line">cd NibblePoker.Data.ArpHardwareType.Documentation</div>
 <div class="line">rmdir html /s /q</div>
 <div class="line">doxygen</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md18"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md19"></a>
 Linux</h3>
 <div class="fragment"><div class="line">cd NibblePoker.Data.ArpHardwareType.Documentation</div>
 <div class="line">rm -rf html</div>
 <div class="line">doxygen</div>
-</div><!-- fragment --><h2><a class="anchor" id="autotoc_md19"></a>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md20"></a>
 Building automatically</h2>
 <p >Run the following command to build the documentation locally with the help of a small script:</p>
-<h3><a class="anchor" id="autotoc_md20"></a>
+<h3><a class="anchor" id="autotoc_md21"></a>
 Windows</h3>
 <div class="fragment"><div class="line">cd NibblePoker.Data.ArpHardwareType.Documentation</div>
 <div class="line">.\build.cmd</div>
-</div><!-- fragment --><h3><a class="anchor" id="autotoc_md21"></a>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md22"></a>
 Linux</h3>
 <p ><em>No script is provided for linux yet.</em></p>
-<h2><a class="anchor" id="autotoc_md22"></a>
+<h2><a class="anchor" id="autotoc_md23"></a>
 Checking the documentation</h2>
 <p >Once compiled, the documentation can be read by opening the '<a href="NibblePoker.Data.ArpHardwareType.Documentation/html/index.html]">NibblePoker.Data.ArpHardwareType.Documentation/html/index.html</a>' file. </p>
 </div></div><!-- contents -->

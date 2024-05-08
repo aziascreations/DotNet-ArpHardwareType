@@ -26,32 +26,40 @@ var NAVTREE =
 [
   [ "DotNet-ArpHardwareType", "index.html", [
     [ ".NET - ARP Hardware Type Data (W.I.P.)", "index.html", [
-      [ "Requirements", "index.html#autotoc_md1", null ],
-      [ "Documentation", "index.html#autotoc_md2", null ],
-      [ "Licenses", "index.html#autotoc_md3", null ]
+      [ "Features", "index.html#autotoc_md1", null ],
+      [ "Requirements", "index.html#autotoc_md2", null ],
+      [ "Documentation", "index.html#autotoc_md3", null ],
+      [ "Licenses", "index.html#autotoc_md4", null ]
     ] ],
     [ "Building", "md__github_workspace_building.html", [
-      [ "Setting up .NET", "md__github_workspace_building.html#autotoc_md5", [
-        [ "Using Microsoft's installers", "md__github_workspace_building.html#autotoc_md6", null ],
-        [ "Using Visual Studio Installer", "md__github_workspace_building.html#autotoc_md7", null ],
-        [ "Using a packet manager", "md__github_workspace_building.html#autotoc_md8", null ]
+      [ "Setting up .NET", "md__github_workspace_building.html#autotoc_md6", [
+        [ "Using Microsoft's installers", "md__github_workspace_building.html#autotoc_md7", null ],
+        [ "Using Visual Studio Installer", "md__github_workspace_building.html#autotoc_md8", null ],
+        [ "Using a packet manager", "md__github_workspace_building.html#autotoc_md9", null ]
       ] ],
-      [ "Downloading the sources", "md__github_workspace_building.html#autotoc_md9", null ],
-      [ "Preparing the project", "md__github_workspace_building.html#autotoc_md10", null ],
-      [ "Testing", "md__github_workspace_building.html#autotoc_md11", null ],
-      [ "Compiling", "md__github_workspace_building.html#autotoc_md12", null ],
-      [ "Packaging", "md__github_workspace_building.html#autotoc_md13", null ],
-      [ "Building the documentation", "md__github_workspace_building.html#autotoc_md14", [
-        [ "Installing Doxygen", "md__github_workspace_building.html#autotoc_md15", null ],
-        [ "Building manually", "md__github_workspace_building.html#autotoc_md16", [
-          [ "Windows", "md__github_workspace_building.html#autotoc_md17", null ],
-          [ "Linux", "md__github_workspace_building.html#autotoc_md18", null ]
+      [ "Downloading the sources", "md__github_workspace_building.html#autotoc_md10", null ],
+      [ "Preparing the project", "md__github_workspace_building.html#autotoc_md11", null ],
+      [ "Testing", "md__github_workspace_building.html#autotoc_md12", null ],
+      [ "Compiling", "md__github_workspace_building.html#autotoc_md13", null ],
+      [ "Packaging", "md__github_workspace_building.html#autotoc_md14", null ],
+      [ "Building the documentation", "md__github_workspace_building.html#autotoc_md15", [
+        [ "Installing Doxygen", "md__github_workspace_building.html#autotoc_md16", null ],
+        [ "Building manually", "md__github_workspace_building.html#autotoc_md17", [
+          [ "Windows", "md__github_workspace_building.html#autotoc_md18", null ],
+          [ "Linux", "md__github_workspace_building.html#autotoc_md19", null ]
         ] ],
-        [ "Building automatically", "md__github_workspace_building.html#autotoc_md19", [
-          [ "Windows", "md__github_workspace_building.html#autotoc_md20", null ],
-          [ "Linux", "md__github_workspace_building.html#autotoc_md21", null ]
+        [ "Building automatically", "md__github_workspace_building.html#autotoc_md20", [
+          [ "Windows", "md__github_workspace_building.html#autotoc_md21", null ],
+          [ "Linux", "md__github_workspace_building.html#autotoc_md22", null ]
         ] ],
-        [ "Checking the documentation", "md__github_workspace_building.html#autotoc_md22", null ]
+        [ "Checking the documentation", "md__github_workspace_building.html#autotoc_md23", null ]
+      ] ]
+    ] ],
+    [ "Namespaces", "namespaces.html", [
+      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+      [ "Namespace Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
       ] ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -64,11 +72,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Enumerations", "globals_enum.html", null ]
-      ] ]
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
