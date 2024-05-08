@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFrameworks>net40;net6.0;net7.0;net8.0</TargetFrameworks>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <RootNamespace>NibblePoker.Data.ArpHardwareType.Example</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\NibblePoker.Data.ArpHardwareType\NibblePoker.Data.ArpHardwareType.csproj" />
+    </ItemGroup>
+
+</Project>

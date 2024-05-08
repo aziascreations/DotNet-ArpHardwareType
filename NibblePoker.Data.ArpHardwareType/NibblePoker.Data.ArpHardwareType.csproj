@@ -4,14 +4,14 @@
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>disable</Nullable>
         <PackageVersion>0.0.1</PackageVersion>
-        <Title>NibblePoker Arguments</Title>
+        <Title>NibblePoker ARP Hardware Type Data</Title>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Description>...</Description>
+        <Description>A small package containing all the ARP Hardware Types as defined by de IANA, RFC 1700 and Linux in distinct and convenient enums.</Description>
         <PackageProjectUrl>https://github.com/aziascreations/DotNet-ArpHardwareType</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/aziascreations/DotNet-ArpHardwareType/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/aziascreations/DotNet-ArpHardwareType</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageTags>...</PackageTags>
+        <PackageTags>arp</PackageTags>
         <PackageReleaseNotes>Initial release</PackageReleaseNotes>
         <PackageIcon>icon.png</PackageIcon>
         <AssemblyVersion>0.0.1</AssemblyVersion>
@@ -22,12 +22,6 @@
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
         <DebugType>none</DebugType>
         <DocumentationFile>bin\Release\NibblePoker.Data.ArpHardwareType.xml</DocumentationFile>
-        <Nullable>disable</Nullable>
-    </PropertyGroup>
-
-    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-        <DocumentationFile>bin\Debug\NibblePoker.Data.ArpHardwareType.xml</DocumentationFile>
-        <Nullable>disable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>

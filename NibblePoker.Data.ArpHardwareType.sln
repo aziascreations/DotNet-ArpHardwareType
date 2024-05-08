@@ -4,19 +4,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NibblePoker.Data.ArpHardwar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NibblePoker.Data.ArpHardwareType.Tests", "NibblePoker.Data.ArpHardwareType.Tests\NibblePoker.Data.ArpHardwareType.Tests.csproj", "{516B765B-7E64-4895-AB4C-88A05090F105}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NibblePoker.Data.ArpHardwareType.Example", "NibblePoker.Data.ArpHardwareType.Example\NibblePoker.Data.ArpHardwareType.Example.csproj", "{2548F0E1-A783-4FF8-8C72-53464612035E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B3E5019E-E9F6-4EFF-84D3-4230D5086220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B3E5019E-E9F6-4EFF-84D3-4230D5086220}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E5019E-E9F6-4EFF-84D3-4230D5086220}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3E5019E-E9F6-4EFF-84D3-4230D5086220}.Release|Any CPU.Build.0 = Release|Any CPU
-		{516B765B-7E64-4895-AB4C-88A05090F105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{516B765B-7E64-4895-AB4C-88A05090F105}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{516B765B-7E64-4895-AB4C-88A05090F105}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{516B765B-7E64-4895-AB4C-88A05090F105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2548F0E1-A783-4FF8-8C72-53464612035E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2548F0E1-A783-4FF8-8C72-53464612035E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
