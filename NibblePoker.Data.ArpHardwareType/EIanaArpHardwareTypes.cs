@@ -222,61 +222,92 @@ namespace NibblePoker.Data.ArpHardwareType {
         Asynchronous_Transmission_Mode_MikeBurrows = Asynchronous_Transmission_Mode_3,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"MIL-STD-188-220"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Herb Jensen	mailto:hwjensen&itt.com
         [ArpHardwareTypeName("MIL-STD-188-220")]
         MIL_STD_188_220 = 22,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"Metricom"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Jonathan Stone	mailto:jonathan&dsg.stanford.edu
         [ArpHardwareTypeName("Metricom")]
         Metricom = 23,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"IEEE 1394.1995"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Myron Hattig	mailto:Myron_Hattig&ccm.jf.intel.com
         [ArpHardwareTypeName("IEEE 1394.1995")]
         IEEE_1394_1995 = 24,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"MAPOS"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>, and as defined in
+        ///   <a href="https://datatracker.ietf.org/doc/html/rfc2176">RFC 2176</a>.
         /// </summary>
+        // Reference: Mitsuru Maruyama	mailto:mitsuru&ntt-20.ecl.net
         [ArpHardwareTypeName("MAPOS")]
         MAPOS = 25,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"Twinaxial"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Marion Pitts	mailto:marionp&vnet.ibm.com
         [ArpHardwareTypeName("Twinaxial")]
         Twinaxial = 26,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"EUI-64"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Kenji Fujisawa	mailto:fujisawa&sm.sony.co.jp
         [ArpHardwareTypeName("EUI-64")]
         EUI_64 = 27,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"HIPARP"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Jean-Michel Pittet	mailto:jmp&gandalf.engr.sgi.com
         [ArpHardwareTypeName("HIPARP")]
         HIPARP = 28,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"IP and ARP over ISO 7816-3"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Scott Guthery	mailto:sguthery&mobile-mind.com
         [ArpHardwareTypeName("IP and ARP over ISO 7816-3")]
         IP_and_ARP_over_ISO_7816_3 = 29,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"ARPSec"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Jerome Etienne	mailto:jetienne&arobas.net
         [ArpHardwareTypeName("ARPSec")]
         ARPSec = 30,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"IPsec tunnel"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>, and as defined in
+        ///   <a href="https://datatracker.ietf.org/doc/html/rfc3456">RFC 3456</a>.
         /// </summary>
         [ArpHardwareTypeName("IPsec tunnel")]
         IPsec_tunnel = 31,
@@ -290,20 +321,29 @@ namespace NibblePoker.Data.ArpHardwareType {
         InfiniBand = 32,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"TIA-102 Project 25 Common Air Interface (CAI)"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Jeff Anderson, Telecommunications Industry of America (TIA) TR-8.5 Formulating Group, <cja015&motorola.com>, June 2004
         [ArpHardwareTypeName("TIA-102 Project 25 Common Air Interface (CAI)")]
         TIA_102_Project_25_Common_Air_Interface = 33,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"Wiegand Interface"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Scott Guthery	mailto:sguthery&hidcorp.com
         [ArpHardwareTypeName("Wiegand Interface")]
         Wiegand_Interface = 34,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"Pure IP"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Inaky Perez-Gonzalez	mailto:inaky.perez-gonzalez&intel.com
         [ArpHardwareTypeName("Pure IP")]
         Pure_IP = 35,
         
@@ -315,14 +355,20 @@ namespace NibblePoker.Data.ArpHardwareType {
         HW_EXP1 = 36,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"HFI"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Tseng-Hui Lin	mailto:tsenglin&us.ibm.com
         [ArpHardwareTypeName("HFI")]
         HFI = 37,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"Unified Bus (UB)"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Wei Pan	mailto:tarzan.pan&huawei.com
         [ArpHardwareTypeName("Unified Bus (UB)")]
         Unified_Bus = 38,
         
@@ -336,8 +382,11 @@ namespace NibblePoker.Data.ArpHardwareType {
         HW_EXP2 = 256,
         
         /// <summary>
-        ///   ???
+        ///   ARP hardware type for <i>"AEthernet"</i> as described in the
+        ///   <a href="https://www.iana.org/assignments/arp-parameters/arp-parameters.xhtml">IANA's On-Line Database</a>
+        ///   in their document dated <i>"2023-05-19"</i>.
         /// </summary>
+        // Reference: Geoffroy Gramaize	mailto:geoffroy.iana&gramaize.eu
         [ArpHardwareTypeName("AEthernet")]
         AEthernet = 257,
         

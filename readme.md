@@ -14,7 +14,8 @@ distinct and convenient enums.
 * Provides friendly names for UI usage
 
 ## Requirements
-* .NET v4.0 or newer
+* .NET Framework 4.0 or newer
+* .NET v6.0 or newer
 
 ## Documentation
 Go to [aziascreations.github.io/DotNet-ArpHardwareType/](https://aziascreations.github.io/DotNet-ArpHardwareType/) for the HTML documentation.

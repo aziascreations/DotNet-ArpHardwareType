@@ -6,6 +6,8 @@
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>disable</Nullable>
         <RootNamespace>NibblePoker.Data.ArpHardwareType.Example</RootNamespace>
+        
+        <IsPackable>false</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>

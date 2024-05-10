@@ -1,22 +1,40 @@
 <Project Sdk="Microsoft.NET.Sdk">
     
     <PropertyGroup>
+        <TargetFrameworks>net40;net6.0;net7.0;net8.0</TargetFrameworks>
+        
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>disable</Nullable>
-        <PackageVersion>0.0.1</PackageVersion>
-        <Title>NibblePoker ARP Hardware Type Data</Title>
+
+        <AssemblyVersion>0.0.2</AssemblyVersion>
+        <FileVersion>0.0.2</FileVersion>
+        
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+        <!-- https://learn.microsoft.com/en-us/nuget/reference/msbuild-targets#packing-a-license-expression-or-a-license-file -->
+        <PackageId>NibblePoker.Data.ArpHardwareType</PackageId>
+        <PackageVersion>0.0.2</PackageVersion>
+        <!--<VersionPrefix></VersionPrefix>-->
+        <!--<VersionSuffix></VersionSuffix>-->
+        <Authors>NibblePoker,Herwin Bozet</Authors>
+        <Title>NibblePoker ARP Hardware Type Data</Title>
         <Description>A small package containing all the ARP Hardware Types as defined by de IANA, RFC 1700 and Linux in distinct and convenient enums.</Description>
+        <!--<Copyright></Copyright>-->
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <!--<PackageLicenseExpression></PackageLicenseExpression>-->
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <!--<PackageLicenseUrl></PackageLicenseUrl>-->
         <PackageProjectUrl>https://github.com/aziascreations/DotNet-ArpHardwareType</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/aziascreations/DotNet-ArpHardwareType/blob/master/LICENSE</PackageLicenseUrl>
-        <RepositoryUrl>https://github.com/aziascreations/DotNet-ArpHardwareType</RepositoryUrl>
-        <RepositoryType>git</RepositoryType>
+        <PackageIcon>icon.png</PackageIcon>
+        <!--<PackageIconUrl></PackageIconUrl>-->
+        <PackageReadmeFile>readme.md</PackageReadmeFile>
         <PackageTags>arp</PackageTags>
         <PackageReleaseNotes>Initial release</PackageReleaseNotes>
-        <PackageIcon>icon.png</PackageIcon>
-        <AssemblyVersion>0.0.1</AssemblyVersion>
-        <FileVersion>0.0.1</FileVersion>
-        <TargetFrameworks>net40;net6.0;net7.0;net8.0</TargetFrameworks>
+        <RepositoryUrl>https://github.com/aziascreations/DotNet-ArpHardwareType</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryBranch>master</RepositoryBranch>
+        <!--<RepositoryCommit></RepositoryCommit>-->
+        <!--<PackageType></PackageType>-->
     </PropertyGroup>
 
     <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
@@ -25,11 +43,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <None Include="..\icon.png">
-            <Pack>True</Pack>
-            <PackagePath></PackagePath>
-            <Link>icon.png</Link>
-        </None>
+        <None Include="..\icon.png" Pack="true" PackagePath=""/>
+        <None Include="..\LICENSE" Pack="true" PackagePath=""/>
+        <None Include="..\readme.md" Pack="true" PackagePath=""/>
     </ItemGroup>
     
 </Project>
