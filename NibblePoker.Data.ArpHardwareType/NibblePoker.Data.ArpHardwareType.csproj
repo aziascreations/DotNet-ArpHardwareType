@@ -29,7 +29,7 @@
         <!--<PackageIconUrl></PackageIconUrl>-->
         <PackageReadmeFile>readme.md</PackageReadmeFile>
         <PackageTags>arp</PackageTags>
-        <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+        <PackageReleaseNotes>Added comments to all IANA entries</PackageReleaseNotes>
         <RepositoryUrl>https://github.com/aziascreations/DotNet-ArpHardwareType</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <RepositoryBranch>master</RepositoryBranch>

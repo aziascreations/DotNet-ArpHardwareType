@@ -6,7 +6,7 @@
 
 DOXYFILE_ENCODING      = UTF-8
 PROJECT_NAME           = "DotNet-ArpHardwareType"
-PROJECT_NUMBER         = "0.0.1"
+PROJECT_NUMBER         = "0.0.2"
 PROJECT_BRIEF          = "TODO: Description here :)"
 PROJECT_LOGO           = "./logo.png"
 PROJECT_ICON           = "./favicon.ico"
